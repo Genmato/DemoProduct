@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Catalog/etc/product_types.xsd">
-    <type name="demoproeduct" label="Demo Product" modelInstance="Genmato\DemoProduct\Model\Product\Type\Demo" indexPriority="25" sortOrder="25">
+    <type name="demoproduct" label="Demo Product" modelInstance="Genmato\DemoProduct\Model\Product\Type\Demo" indexPriority="25" sortOrder="25">
         <customAttributes>
             <attribute name="refundable" value="true"/>
         </customAttributes>
