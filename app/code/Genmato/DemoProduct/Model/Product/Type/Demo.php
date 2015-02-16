@@ -10,6 +10,11 @@ namespace Genmato\DemoProduct\Model\Product\Type;
 class Demo extends \Magento\Catalog\Model\Product\Type\AbstractType
 {
     /**
+     * Product type code
+     */
+    const TYPE_CODE = 'demoproduct';
+
+    /**
      * Delete data specific for Simple product type
      *
      * @param \Magento\Catalog\Model\Product $product
